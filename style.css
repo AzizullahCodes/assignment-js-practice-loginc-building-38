@@ -6,4 +6,25 @@ border: 2px solid black;
 background-color:aqua;} */
 
 /* ques no 36 */
-.sty{color:red;}
+/* .sty{color:red;} */
+
+/* ques no 38 */
+/* nav{background-color: aqua;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 40px;
+padding-right: 40px;}
+
+.ulclass{display: flex;
+gap:50px;}
+.ulclass li{list-style: none;}
+.ulclass li a{text-decoration: none;}
+
+.btn{display: none;}
+@media(max-width:768px){.ulclass{display: none;}
+.btn{display: block;}
+.vp{display: block;
+position: relative;
+top:100px;
+right:200px;}} */

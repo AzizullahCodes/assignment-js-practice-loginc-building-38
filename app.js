@@ -612,11 +612,13 @@ classList styling
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
+/*--------- Question no 38 ----------------------
+functional navbar
 */
 /********** Answer **************** */
-
+// function showHide(){let get = document.getElementById('ulid');
+//     get.classList.toggle('vp')
+// }
 
 
 
