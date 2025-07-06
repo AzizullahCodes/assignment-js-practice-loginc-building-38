@@ -443,53 +443,117 @@ create a ul long by js
 // document.body.appendChild(ol);
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
+/*--------- Question no 28 ----------------------
+create and push multiple elements in main div by js dom
 */
 /********** Answer **************** */
+// let main = document.createElement('section');
+// console.log(main);
+// let heading = document.createElement('h1');
+// console.log(heading);
+// let headingContent = document.createTextNode('My country');
+// heading.appendChild(headingContent);
+// let dv = document.createElement('div');
+// let dvContent = document.createTextNode('Hello');
+// dv.appendChild(dvContent);
+// let para = document.createElement('p');
+// let paraContent = document.createTextNode('I love learning');
+// para.appendChild(paraContent);
 
+// main.appendChild(heading);
+// main.appendChild(dv);
+// main.appendChild(para);
+// console.log(main);
+// document.body.appendChild(main)
 
+/*===========================================================================*/
+/*--------- Question no 29 ----------------------
+querySelector and querySelectorAll()
+*/
+/********** Answer **************** */
+// let get = document.querySelectorAll('p');
+// console.log(get);
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
+/*--------- Question no 30 ----------------------
+Check if an Element Has a Specific Attribute
+Objective: Use .hasAttribute()
+Question:
+You have the following HTML:
+
+<button id="myBtn" type="button">Click Me</button>
+Task:
+Write JavaScript to check if the button has a "type" attribute. If it has, 
+log "Yes, it has 'type'", otherwise log "No, it doesn't".
 
 */
 /********** Answer **************** */
+// let get = document.getElementById('myBtn');
+// console.log(get);
+// let check = get.hasAttribute('type');
+// console.log(check)
+// if(check === true){console.log('has attribute')}
+// else{console.log('has not attribute')}
 
+/*===========================================================================*/
+/*--------- Question no 31 ----------------------
+ Get the Value of an Attribute
+Objective: Use .getAttribute()
+HTML:
+<a id="myLink" href="https://example.com" target="_blank">Visit Site</a>
+Task:
+Write JavaScript to get the value of the href attribute and display it
+ using console.log.
+*/
+/********** Answer **************** */
+
+// let get = document.getElementById('myLink');
+// console.log(get);
+// let val = get.getAttribute('href');
+// console.log(val)
+
+
+
+/*--------- Question no 32 ----------------------
+Set a New Attribute
+Objective: Use .setAttribute()
+HTML:
+<img id="myImg" src="default.jpg" alt="default image">
+Task:
+Write JavaScript to:
+Change the src attribute to "newimage.jpg".
+Set a new attribute title="New Image".
+*/
+/********** Answer **************** */
+// let get = document.getElementById('myImg');
+// console.log(get);
+// get.setAttribute('src','newimage.jpg');
+// get.setAttribute('title','New Image');
+// console.log(get)
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
+/*--------- Question no 33 ----------------------
+All in One Task
+HTML:
+
+<div id="infoBox" data-role="admin" class="box"></div>
+Task:
+Using JavaScript:
+Check if the infoBox has the attribute data-role.
+If yes, get its value and log it.
+Then change data-role to "user".
 
 */
 /********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-
-
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
+// let get = document.getElementById('infoBox');
+// console.log(get);
+// let check = get.hasAttribute('data-role');
+// if(check === true){let val= get.getAttribute('check');
+//     console.log(check);
+//     get.setAttribute('data-role','user')
+// }
 
 
 /*===========================================================================*/
