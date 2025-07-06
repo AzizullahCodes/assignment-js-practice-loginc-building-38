@@ -623,104 +623,194 @@ functional navbar
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
+/*--------- Question no 39 ----------------------
+array
 */
 /********** Answer **************** */
+// let array = ['fruit','Aziz',true,false,234,''];
+// console.log(array);
+// console.log(typeof array);
+// console.log(array.length);
+// console.log(array[8]);
+// array[0] = 'Mango';
+// console.log(array);
+// array[7] = 'camel';
+// console.log(array)
+
+
+/*===========================================================================*/
+/*--------- Question no 40 ----------------------
+Create and Print an Array
+Question:
+Create an array called fruits with values "apple", "banana", and "mango". 
+Print the entire array.
+
+Expected Output:
+["apple", "banana", "mango"]
+*/
+/********** Answer **************** */
+// let  fruits = ['apple','banana','mango'];
+// console.log(fruits);
+
+
+/*===========================================================================*/
+/*--------- Question no 41 ----------------------
+ Access Array Elements
+Question:
+Create an array of 5 numbers and print the third number.
+
+Expected Output (example):
+If array is [10, 20, 30, 40, 50], output should be: 30
+*/
+/********** Answer **************** */
+// let number = [10,20,30,40,50];
+// let required = number[2];
+// console.log(required);
+// let ind = number.indexOf(30);
+// console.log(ind);
+// let need = number[ind];
+// console.log(need)
+
+
+
+
+/*--------- Question no 42 ----------------------
+ Change a Value in Array
+Question:
+Create an array of 3 colors. Change the second color to "blue" and print 
+the array.
+
+Expected Output (example):
+Before: ["red", "green", "yellow"]
+After: ["red", "blue", "yellow"]
+*/
+/********** Answer **************** */
+// let color = ['red','green','yellow'];
+// console.log(color);
+// color[1] = 'blue';
+// console.log(color);
+// let n = color.splice(1);
+// console.log(color)
+
+/*===========================================================================*/
+/*--------- Question no 43 ----------------------
+Remove One Item
+Question:
+Create an array ["pen", "pencil", "eraser", "scale"]. Use .splice() to remove "pencil".
+
+Expected Output:
+["pen", "eraser", "scale"]
+*/
+/********** Answer **************** */
+// let array = ['pen','pencil','eraser','scale'];
+//      array.splice(1,1);
+//     console.log(array)
+
+
+/*===========================================================================*/
+/*--------- Question no 44 ----------------------
+: Remove Two Items
+Question:
+Create an array ["html", "css", "js", "react", "node"]. Use .splice() to remove "js" and "react".
+
+Expected Output:
+["html", "css", "node"]
+*/
+/********** Answer **************** */
+// let array = ['html','css','js','react','node'];
+// array.splice('2',2,'hello','you');
+// console.log(array)
+
+
+/*===========================================================================*/
+/*--------- Question no 45 ----------------------
+ Add Multiple Items
+Question:
+Create an array [10, 20, 40]. Use .splice() to add 30 and 35 between 20 and 40.
+
+Expected Output:
+[10, 20, 30, 35, 40]
+*/
+/********** Answer **************** */
+// let array = [10,20,40];
+// array.splice(2,0,30,35);
+// console.log(array)
+
+
+/*===========================================================================*/
+/*--------- Question no 46 ----------------------
+splice
+*/
+/********** Answer **************** */
+// let array = ['mango','apple','banana','grapes'];
+// let n = array.splice(1,1);
+// console.log(n);
+// console.log(array)
+
+
+/*===========================================================================*/
+/*--------- Question no 47 ----------------------
+Task 1: Print Numbers 1 to 10
+Question:
+Use a for loop to print numbers from 1 to 10 in the console.
+*/
+/********** Answer **************** */
+// let get = document.getElementById('ph');
+// function looping(){let result = '';
+//     for(let i = 1 ; i <=10; i++){
+//    result = result + i + '<br>'
+// }
+// document.getElementById('ph').innerHTML = result}
+
+/*===========================================================================*/
+/*--------- Question no 48 ----------------------
+Print Even Numbers from 2 to 20
+Question:
+Use a for loop to print all even numbers from 2 to 20.
+Expected Output:
+2, 4, 6, ..., 20
+*/
+/********** Answer **************** */
+// function looping(){let result = '';
+//     for(let i = 2 ; i <= 20; i++){if(i%2 === 0){result = result + i + '<br>'}
+// }
+// document.getElementById('myDiv').innerHTML = result;
+// }
 
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
+/*--------- Question no 49 ----------------------
+ Sum of Numbers 1 to 100
+Question:
+Use a for loop to calculate and print the sum of numbers from 1 to 100.
+Expected Output:
 
+5050
 */
 /********** Answer **************** */
-
+// function looping(){let result = 0;
+//     for(let i = 1; i <=100; i++){console.log(result +=  i)}
+//     document.getElementById('myDiv').innerHTML = result;
+// }
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
+/*--------- Question no 50 ----------------------
+ Print Multiplication Table of 5
+Question:
+Use a for loop to print the multiplication table of 5, from 1 to 10.
+Expected Output:
 
-*/
+5 x 1 = 5  
+5 x 2 = 10  
+...  
+5 x 10 = 50
+
 /********** Answer **************** */
+function looping(){let table = '';
+    for(let i = 1; i<=10; i++){table = table + (5 * i) + '<br>' }
+    document.getElementById('myDiv').innerHTML = table
+}
 
 
-
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
-
-
-
-/*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
-*/
-/********** Answer **************** */
