@@ -557,35 +557,57 @@ Then change data-role to "user".
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
+/*--------- Question no 34 ----------------------
+className 
 */
 /********** Answer **************** */
+// function styling(){let get = document.getElementById('heading');
+//     console.log(get);
+//     get.className = 'head';
 
+// }
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
+/*--------- Question no 35 ----------------------
+className styling
 */
 /********** Answer **************** */
-
+// function styling(){let get = document.getElementById('division');
+//     console.log(get);
+//     get.className = 'dv';
+// }
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
+/*--------- Question no 36 ----------------------
+apply css on ul li by className
 */
 /********** Answer **************** */
-
+// function styling(){let get = document.getElementsByClassName('li');
+//     console.log(get);
+//     for(let i = 0; i < get.length; i++){get[i].className = 'sty';}
+// }
 
 
 /*===========================================================================*/
-/*--------- Question no 1 ----------------------
-
+/*--------- Question no 37 ----------------------
+classList styling
 */
 /********** Answer **************** */
+// function adding(){let get = document.getElementsByClassName('li');
+//     for(let i = 0; i< get.length; i++){get[i].classList.add('sty')}
+// }
 
+
+// function removing(){let get = document.getElementsByClassName('li');
+//     for(let i = 0; i< get.length; i++){get[i].classList.remove('sty')}
+// }
+
+
+// function toggling(){let get = document.getElementsByClassName('li');
+//    for(let i = 0; i< get.length; i++){get[i].classList.toggle('sty')}
+// }
 
 
 
